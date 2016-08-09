@@ -1,0 +1,53 @@
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+    background-color: #cce0ff;
+    color: #003d99;
+
+}
+
+footer {
+    background-color: #cce0ff;
+    color: #003d99;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+aside {
+    display: table-cell;
+    background: #cce0ff;
+    padding: 15px;
+    vertical-align: top;
+    width: 300px;
+    text-align: center;
+    font-size: 250%
+}
+
+#main {
+    display: table-cell;
+    background: #66a3ff;
+    padding: 15px;
+    vertical-align: top;
+    width: 625px;
+    font-size: 200%;
+}
+
+#rside {
+    position: absolute;
+    top: 275px;
+    left: 1025px;
+    width: 300px;
+}
+
+a:hover {
+    background-color: yellow;
+}
+/* img.planeHeader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
