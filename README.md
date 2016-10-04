@@ -1,1 +1,0 @@
-# TRIYGH.github.io

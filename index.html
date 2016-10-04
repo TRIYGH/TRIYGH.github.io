@@ -2,55 +2,357 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="reverse.css">
-        <title>Aircraft For Sale</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>T. Robert Ward</title>
     </head>
     <body>
-        <header>
-            <img id="planeHeader" src="thumb_airplane_header_1024.jpg" alt="airplane header">
-            <p>
-                Airplanes for sale !!!!<br><br>
-            </p>
-        </header>
+        <div class="topRow" id="top">
+            <p id="contactMe" onmouseover="document.getElementById('contactInfo').style.visibility='visible'"
+                onmouseout="document.getElementById('contactInfo').style.visibility='hidden'">Contact</p>
 
-        <aside>
+            <p id="linksToFaceBook">
+                <a href="https://www.facebook.com/t.robert.ward"><img src="images/FB-f-Logo__blue_29.png" alt="FaceBook"></a>
+            </p>
+
+            <p id="linksToLinkedIN">
+                <a href="https://www.linkedin.com/in/t-robert-ward-809522a"><img src="images/Logo-2CRev-28px-R.png" alt="LinkedIn"></a>
+            </p>
+
+            <p id="linksToGitHub">
+                <a href="https://github.com/TRIYGH"><img src="images/separatorPhotos/GitHub-Mark-Light-32px.png" alt="GitHub"></a>
+            </p>
+
+            <p id="resume">
+                <a href="#showResume" style="font-size: 24px;">Resume</a>
+            </p>
+
+
+        </div>
+
+        <h1 id="myName">T. Robert Ward<span style="font-size: 60%;">, III</span></h1>
+            <p id="briefSummary"><a href="#fiveSecSummary">... super brief summary ...</a></p>
+
+            <div id="contactInfo">
+                <p>Cell: (910) 603-1621</p>
+                    <p>email: trobisflying@gmail.com</p>
+            </div>
+
+        <div id="bRow">
+            <a href="#gopython"> <button class="buttonRow python"> Python</button></a>
+            <a href="#gocsharp"><button class="buttonRow csharp"> C#</button></a>
+            <a href="#gocplus"><button class="buttonRow cplus"> C++</button></a>
+            <a href="#godjango"><button class="buttonRow django"> Django</button></a>
+            <a href="#gorestapi"><button class="buttonRow restapi"> REST API</button></a>
+            <a href="#gojavascript"><button class="buttonRow javascript"> Javascript</button></a>
+            <a href="#gohtmlcss"><button class="buttonRow htmlcss"> HTML / CSS</button></a>
+            <a href="#gobasic"><button class="buttonRow basic"> BASIC</button></a>
+        </div>
+
+    <p><img src="images/separatorPhotos/aerial.jpg" alt="aerial view" style="width:100%; opacity:0.3"></p>
+
+    <div id="fiveSecSummary">
+        <h1><em>5 Second Summary</em></h1>
+
+<p>
+    <a href="#showResume"> <img src="images/separatorPhotos/progr.jpg" alt="me programmer" style="width:20%; padding-right:30px; inline-block; vertical-align: middle;"></a>
+    <a href="#showResume"> <img src="images/separatorPhotos/me.jpg" alt="me" style="width:25%; padding-right:30px; inline-block; vertical-align: middle;"></a>
+    <a href="#showResume"> <img src="images/separatorPhotos/pilot.jpg" alt="me pilot" style="width:20%; inline-block; vertical-align: middle;"></a>
+</p>
+<br>
+        <p style="font-size:32px; font-style:italic; line-height: 0px;">
+            Objective
+        </p>
+        <p style="font-size:28px; text-align:center; font-style:italic; line-height: 0px;">
+            To work as a programmer in the aviation and UAV industry
+        </p>
+<br>
+        <p style="font-size:28px; text-decoration:underline; line-height: 0px;">Prior Career</p>
+        <div  id="priorCareer">
+        <p>Catered to ex-military overseas gov’t contractors retiring out of SpecOps at Ft. Bragg</p>
+        <p>( from operators to intelligence analysts to 4-Star Generals to pilots to agency / bureau contractors ).</p>
+        <p>I owned my own practice for 15 years  -  Sold it in January to pursue my life-long passion for IT.</p>
+            </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+<br>
+        <table id="edTable">
+            <th colspan="3">
+                Education
+            </th>
+            <tr>
+                <td>
+                    BOOT CAMP:  The IronYard at Durham<br>Data Science
+                </td>
+                <td>
+                    Masters:  NC State University
+                </td>
+                <td>
+                    Undergrad:  UNC Chapel Hill
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <p><img src="images/separatorPhotos/G450.jpg" alt="gulfstream cockpit" style="width:100%; opacity:0.3"></p><br>
+
+        <p id="showResume"><embed src="images/separatorPhotos/resume.pdf" alt="my resume" style="width:100%; height:1150px;"></p><br>
+
+    <p><img src="images/separatorPhotos/G450.jpg" alt="gulfstream cockpit" style="width:100%; opacity:0.3"></p><br>
+
+        <div id="gopython">
+            <h2 id="goTitle">Python Code</h2>
+            <p id="centerButtons">
+                <a href="https://github.com/TRIYGH/Above_The_Clouds"> <button class="gitButton python big">ClearSkies</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/text-classifier"> <button class="gitButton python med">Text Classifier</button></a>
+                <a href="https://github.com/TRIYGH/question_box"> <button class="gitButton python med">Question Box</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/kanban-django"> <button class="gitButton python small">Kanban</button></a>
+                <a href="https://github.com/TRIYGH/weather-report"> <button class="gitButton python small">Weather API</button></a>
+                <a href="https://github.com/TRIYGH/django-movies"> <button class="gitButton python small">MovieLens</button></a>
+                <br>
+            </p><br>
+                <table id="pythonTable">
+                    <tr>
+                        <td><a href="https://github.com/TRIYGH/express-yourself">Express Yourself</a></td>
+                        <td><a href="https://github.com/TRIYGH/SportsSearchEngine">Sports Search Engine</a></td>
+                        <td><a href="https://github.com/TRIYGH/game-of-sticks">Game of Sticks: Artificial Intelligence Lesson</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/TRIYGH/programming-language-classifier">Polyglot</a></td>
+                        <td><a href="https://github.com/TRIYGH/spambase">Spamalot</a></td>
+                        <td><a href="https://github.com/TRIYGH/car-worth-linear-regression">Plaid Coat / Car Sales</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/TRIYGH/traffic-simulation">Road Rage</a></td>
+                        <td><a href="https://github.com/TRIYGH/linear-regression">Signs of Regression</a></td>
+                        <td><a href="https://github.com/TRIYGH/moneyball">MoneyBall</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/TRIYGH/consumer-complaints">Customer Complaints</a></td>
+                        <td><a href="https://github.com/TRIYGH/what-to-watch">What to Watch</a></td>
+                        <td><a href="https://github.com/TRIYGH/flipping-out">Flipping Out</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/TRIYGH/currency">Currency Converter</a></td>
+                        <td><a href="https://github.com/TRIYGH/vector-victor">Vector Victor</a></td>
+                        <td><a href="https://github.com/TRIYGH/is-a-palindrome">Palindromic</a></td>
+                    </tr>
+                </table>
             <br>
-            <a href="http://www.flyingmag.com">See the latest articles about your future plane purchase.</a><br><br>
-            <a href="http://www.planeandpilotmag.com">...and here too!</a>
-
-        </aside>
-
-        <div id='main'>
-            <p>
-                Jet Aircraft:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                <img src="g5.jpg" alt="airplane header" width="150" height="100">
-                <img src="g450.jpg" alt="airplane header" width="150" height="100">
-                <br>
-                TurboProp Aircraft:&ensp;&ensp;&ensp;
-                <img src="kingair.jpg" alt="airplane header" width="150" height="100">
-                <img src="kingair2.jpg" alt="airplane header" width="150" height="100">
-                <br>
-                Single Engine Aircraft:
-                <img src="cirrus.jpg" alt="airplane header" width="150" height="100">
-                <img src="cirrus2.jpg" alt="airplane header" width="150" height="100">
-                <br>
-                Military Aircraft:&ensp;&ensp;&ensp;&ensp;&ensp;
-                <img src="aero.jpg" alt="airplane header" width="150" height="100">
-                <img src="blackhawk.jpg" alt="airplane header" width="150" height="100">
-                <br>
-
-            </p>
-
         </div>
 
-        <div id='rside'>
-            <a href="https://www.weather.com">
-                <img id="moisturemap" src="moisturemap.jpg" alt="airplane weather pic">
-            </a>
-        </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
 
-        <footer>
-            &copy; 1921, BigPapiAir, LLG
-        </footer>
+            <p><img src="images/separatorPhotos/drone_landing.jpg" alt="nasa drone on approach" style="width:100%; opacity:0.3"></p><br>
+
+        <div id="gocsharp">
+            <h2 id="goTitle" style="color: white;">C# Code</h2>
+            <p id="centerButtons">
+                <a href="https://github.com/TRIYGH/Chapter13Ex07"> <button class="gitButton csharp big">Chapter13Ex7</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/Chapter12Ex05"> <button class="gitButton csharp small">Chapter12Ex5</button></a>
+                <a href="https://github.com/TRIYGH/Chapter12Ex07"> <button class="gitButton csharp small">Chapter12Ex7</button></a>
+                <a href="https://github.com/TRIYGH/Chapter12Ex08"> <button class="gitButton csharp small">Chapter12Ex8</button></a>
+                <br>
+            </p><br>
+
+            <table id="cSharpTable">
+                <tr>
+                    <td><a href="https://github.com/TRIYGH/Chapter12Ex03">Chapter12Ex3</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter12Ex03b">Chapter12Ex3b</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter12Ex03c">Chapter12Ex3c</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/TRIYGH/Chapter10Ex04-Pizza">Chapter10Ex4-Pizza</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter10Ex04">Chapter10Ex4</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter10Ex03">Chapter10Ex3</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/TRIYGH/Chapter10Ex02">Chapter10Ex2</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter10Ex01">Chapter10Ex1</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter9Ex-ClassesExercise">Chapter9Ex</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/TRIYGH/Chapter9Ex-classesAndDerivedClasses">Chapter9Ex-classesAndDerivedClasses</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter9Ex-ClassesExercise">Chapter9Ex-ClassesExercise</a></td>
+                    <td><a href="https://github.com/TRIYGH/Chapter9Ex-PostalDeliveryProj">Chapter9Ex-PostalDeliveryProj</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/TRIYGH/review01">Review1</a></td>
+                    <td><a href="https://github.com/TRIYGH/review02">Review2</a></td>
+                    <td><a href="https://github.com/TRIYGH/review03">Review3</a></td>
+                </tr>
+
+            </table>
+        </div>
+        <br><br>
+                <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/L3atILM.jpg" alt="L3 plane at ILM" style="width:100%; opacity:0.3"></p><br>
+
+            <div id="gocplus">
+                <h2 id="goTitle">C++ Code</h2>
+                <p id="centerButtons">
+                    <a href="https://github.com/TRIYGH/Lunar-Proj-2-AGK"> <button class="gitButton cplus big">Lunar-Project-AGK</button></a>
+                    <br>
+                    <a href="https://github.com/TRIYGH/Ball-Drop-Proj-AGK"> <button class="gitButton cplus med">Ball Drop Proj-AGK</button></a>
+                    <a href="https://github.com/TRIYGH/fish-project-AGK"> <button class="gitButton cplus med">Fish Project-AGK</button></a>
+                    <br>
+                    <a href="https://github.com/TRIYGH/screen-color-generator-AGK"> <button class="gitButton cplus small">screen color generator-AGK</button></a>
+                    <a href="https://github.com/TRIYGH/Bricks-Proj-DarkGDK"> <button class="gitButton cplus small">Bricks-Proj-DarkGDK</button></a>
+                    <a href="https://github.com/TRIYGH/Lines-Proj-DarkGDK"> <button class="gitButton cplus small">Lines-Proj-DarkGDK</button></a>
+                    <br>
+                </p><br>
+                    <table id="cPlusTable">
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/mouse-and-light-switch-AGK">mouse-and-light-switch-AGK</a></td>
+                            <td><a href="https://github.com/TRIYGH/mouse-cat-AGK">mouse-cat-AGK</a></td>
+                            <td><a href="https://github.com/TRIYGH/rectangle-builder">rectangle-builder</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/convert-strings">convert-strings</a></td>
+                            <td><a href="https://github.com/TRIYGH/random-num">random-num</a></td>
+                            <td><a href="https://github.com/TRIYGH/monty-hall">monty-hall</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/guessing-game">guessing-game</a></td>
+                            <td><a href="https://github.com/TRIYGH/code-for-rectangle">code-for-rectangle</a></td>
+                            <td><a href="https://github.com/TRIYGH/loan-interest">loan-interest</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/vote-tally">vote-tally</a></td>
+                            <td><a href="https://github.com/TRIYGH/random-stuff">random-stuff</a></td>
+                            <td><a href="https://github.com/TRIYGH/classes-project">classes-project</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/Distillery-project">Distillery-project</a></td>
+                            <td><a href="https://github.com/TRIYGH/text-int">text-int</a></td>
+                            <td><a href="https://github.com/TRIYGH/tank-wagon">tank-wagon</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/pond-pump">pond-pump</a></td>
+                            <td><a href="https://github.com/TRIYGH/overtime">overtime</a></td>
+                            <td><a href="https://github.com/TRIYGH/highway-patrol">highway-patrol</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/array-and-function-learn">learn-arrays-n-functions</a></td>
+                            <td><a href="https://github.com/TRIYGH/figure-out-arrays">figure-out-arrays</a></td>
+                            <td><a href="https://github.com/TRIYGH/switch-program">switch-program</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/do-while">do-while</a></td>
+                            <td><a href="https://github.com/TRIYGH/test-while-loop">test-while-loop</a></td>
+                            <td><a href="https://github.com/TRIYGH/break-out-testing-code">break-out-testing-code</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/if-else-if-loop">if-else-if-loop</a></td>
+                            <td><a href="https://github.com/TRIYGH/if-else-if-again">if-else-if-again</a></td>
+                            <td><a href="https://github.com/TRIYGH/if-stmt-again">if-stmt-again</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/TRIYGH/bad-check-program">bad-check-program</a></td>
+                            <td><a href="https://github.com/TRIYGH/assign-again">assign-again</a></td>
+                            <td><a href="https://github.com/TRIYGH/first-program">first-program</a></td>
+                        </tr>
+                    </table>
+            </div>
+
+            <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/in_plane_computers.jpg" alt="in air surv" style="width:100%; opacity:0.3"></p>
+
+        <div id="godjango">
+            <h2 id="goTitle">Django Code <span style="color:#00e600">(utilizing Python)</span></h2><br>
+            <p id="centerButtons">
+                <a href="https://github.com/TRIYGH/Above_The_Clouds"> <button class="gitButton django big">ClearSkies</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/text-classifier"> <button class="gitButton django med">Text Classifier</button></a>
+                <a href="https://github.com/TRIYGH/question_box"> <button class="gitButton django med">Question Box</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/kanban-django"> <button class="gitButton django small" id="scootOver">Kanban</button></a>
+                <a href="https://github.com/TRIYGH/django-movies"> <button class="gitButton django small">MovieLens</button></a>
+                <br>
+            </p><br>
+            <p id="djangoComment">
+                ...also used in conjunction with REST.  See below...
+            </p><br>
+        </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/cirrus_surveilance.jpg" alt="cirrus with eye" style="width:100%; opacity:0.3"></p><br>
+
+        <div id="gorestapi">
+            <h2 id="goTitle">REST API <span style="color:#00e600">(utilizing Python)</span><span style="color:#66ffff">(...and Django)</span></h2><br>
+            <p id="centerButtons">
+                <a href="https://github.com/TRIYGH/text-classifier"> <button class="gitButton restapi big">Text Classfier</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/question_box"> <button class="gitButton restapi med">Question Box</button></a>
+                <a href="https://github.com/TRIYGH/kanban-django"> <button class="gitButton restapi med">Kanban</button></a>
+                <br>
+            </p><br>
+            <p id="restComment">
+                ...used in conjunction with Django.  See above...
+            </p><br>
+        </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/caravan_surv.jpg" alt="FBI caravan eye" style="width:100%; opacity:0.3"></p><br>
+
+        <div id="gojavascript">
+            <h2 id="goTitle">Javascript Code</h2><br>
+            <p id="centerButtons">
+                <a href="https://github.com/TRIYGH/Above_The_Clouds"> <button style="color:gray" class="gitButton javascript big">ClearSkies</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/text-classifier"> <button style="color:gray" class="gitButton javascript med">Text Classifier</button></a>
+                <a href="https://github.com/TRIYGH/question_box"> <button style="color:gray" class="gitButton javascript med">Question Box</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/kanban-django"> <button style="color:gray" class="gitButton javascript small" id="scootOver">Kanban</button></a>
+                <a href="https://github.com/TRIYGH/asteroids-in-JS"> <button style="color:gray" class="gitButton javascript small">Asteroids in JS</button></a>
+                <br>
+            </p><br>
+            <p id="jsComment">
+                ... Javascript, AJAX, and JQuery were used pretty much throughout all of the above django projects<br>
+                ... and the Asteroids game utilized Canvas...
+            </p><br>
+        </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/mustang.jpg" alt="mustang surv plane" style="width:100%; opacity:0.3"></p><br>
+
+        <div id="gohtmlcss">
+            <h2 id="goTitle">HTML/CSS Code <span style="color:#ffff00">(also utilizing Javascript)</span></h2><br>
+            <p id="centerButtons">
+                <a href="https://github.com/TRIYGH/Above_The_Clouds"> <button class="gitButton htmlcss big">ClearSkies</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/text-classifier"> <button class="gitButton htmlcss med">Text Classifier</button></a>
+                <a href="https://github.com/TRIYGH/question_box"> <button class="gitButton htmlcss med">Question Box</button></a>
+                <br>
+                <a href="https://github.com/TRIYGH/kanban-django"> <button class="gitButton htmlcss small">Kanban</button></a>
+                <a href="https://github.com/TRIYGH/asteroids-in-JS"> <button class="gitButton htmlcss small">Asteroids</button></a>
+                <a href="https://github.com/TRIYGH/django-movies"> <button class="gitButton htmlcss small">MovieLens</button></a>
+                <br>
+            </p><br>
+            <p id="htmlComment">
+                ...this page was created from scratch - no Bootstrap
+            </p><br><br>
+        </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/HawkerOsprey.jpg" alt="Hawker with an Osprey" style="width:100%; opacity:0.3;"></p><br>
+
+        <div id="gobasic">
+            <h2 id="goTitle">BASIC Code</h2><br>
+            <p style="color: white;">
+                I learned BASIC on a RadioShack TRS-80.  That's right.  You read that correctly.  In fact, I had
+                    to save the programs I wrote on cassette tapes.  I could tell you more, but at this point I am sure
+                    you have fallen out of your chair.
+            </p><br><br>
+        </div>
+        <p><a href="#top"><img src="images/separatorPhotos/backtotop.jpg" alt="back to top button" style="position:relative; left:650px; bottom:0px; width:100px;"></a></p>
+
+            <p><img src="images/separatorPhotos/chief.jpg" alt="airforce5" style="width:100%; opacity:0.3"></p><br>
+
     </body>
 </html>

@@ -1,0 +1,390 @@
+body {
+    background-image: url('images/drone_drawing2.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('images/drone_drawing2.jpg') no-repeat; background-size: 140%;
+}
+
+#myName {
+    color: white;
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#briefSummary {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+}
+
+#briefSummary a, a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+#briefSummary a:hover{
+    color: yellow;
+    text-decoration:none
+}
+
+#briefSummary a:active{
+    color: red;
+    text-decoration:none
+}
+
+.topRow {
+    display: inline-block;
+}
+
+#contactMe {
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    padding-right: 470px;
+    font-size: 24px;
+}
+
+#contactMe a, a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#contactMe a:hover {
+    color: yellow;
+}
+
+#contactMe a:active {
+    color: red;
+}
+
+#contactInfo {
+    visibility: hidden;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 173px;
+    margin-right: 150px;
+    margin-top: 175px;
+}
+
+#linksToFaceBook {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+#linksToLinkedIN {
+    display: inline;
+    padding-right: 25px;
+}
+
+#linksToGitHub {
+    display: inline;
+    padding-right: 470px;
+}
+
+#resume {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#resume a, a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#resume a:hover {
+       text-decoration: none;
+       color: yellow;
+}
+
+#resume a:active {
+       text-decoration: none;
+       color: red;
+}
+
+#bRow {
+    /*position: absolute;*/
+    bottom: 20px;
+    padding-left: 170px;
+}
+
+.buttonRow {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline:none;
+}
+
+.python {
+    background-color: #00e600;
+    color: white;
+    font-weight: bold;
+}
+
+.python:hover {
+    opacity: 0.5;
+}
+
+.csharp {
+    background-color: #ff751a;
+}
+
+.csharp:hover {
+    opacity: 0.5;
+}
+.cplus {
+    background-color: #b366ff;
+}
+
+.cplus:hover {
+    opacity: 0.5;
+}
+.django {
+    background-color: #66ffff;
+}
+
+.django:hover {
+    opacity: 0.5;
+}
+.restapi {
+    background-color: #ff3300;
+}
+
+.restapi:hover {
+    opacity: 0.5;
+}
+
+.javascript {
+    background-color: #ffff00;
+    color: gray;
+}
+
+.javascript:hover {
+    opacity: 0.5;
+}
+.htmlcss {
+    background-color: #0000cc;
+}
+
+.htmlcss:hover {
+    opacity: 0.5;
+}
+.basic {
+    background-color: #ff0066;
+}
+
+.basic:hover {
+    opacity: 0.5;
+}
+
+#centerButtons {
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.big {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 72px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline:none;
+    width: 807px;
+}
+
+.med {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline:none;
+    width: 400px;
+
+}
+
+.small {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline:none;
+    width: 264px;
+
+}
+
+#pythonTable {
+    border-spacing: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pythonTable a{
+    font-size: 22px;
+    text-decoration: none;
+    color: green;
+}
+
+#pythonTable td{
+    padding: 5px;
+}
+
+#lastPythonProg {
+    text-align: center;
+    border-spacing: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lastPythonProg a{
+    font-size: 22px;
+    text-decoration: none;
+    color: green;
+}
+
+#goTitle {
+    font-style: italic;
+    font-size: 48px;
+    color: white;
+}
+
+#djangoComment {
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+#restComment {
+    color: #66ffff;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+#jsComment {
+    color: #66ffff;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+#scootOver {
+    margin-left: 138px;
+}
+
+#centerButtons a{
+    color: gray;
+}
+
+#gobasic {
+    font-size: 24px;
+}
+
+#picpic {
+    {
+        filter: blur(5px);
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+        margin: -5px -10px -10px -5px;
+    }
+}
+
+#fiveSecSummary{
+    color: white;
+    text-align: center;
+}
+
+#edTable{
+    font-size: 24px;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    background-color: #39004d
+}
+
+
+#me {
+    background-color: blue;
+}
+
+#priorCareer {
+    font-size:22px;
+    margin-left:200px;
+    margin-right:200px;
+    line-height: 0px;
+}
+
+#cSharpTable {
+    border-spacing: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cSharpTable a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #ff751a;
+}
+
+#cSharpTable td{
+    padding: 5px;
+}
+
+#cPlusTable {
+    border-spacing: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cPlusTable a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #b366ff;
+}
+
+#cPlusTable td{
+    padding: 5px;
+}
+
+#htmlComment {
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
